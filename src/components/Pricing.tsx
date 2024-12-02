@@ -45,7 +45,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="pricing">
+    <section id="pricing" className="pricing">
       <div className="pricing-header">
         <h2 className="pricing-title">Simple, Transparent Pricing</h2>
         <p className="pricing-subtitle">
