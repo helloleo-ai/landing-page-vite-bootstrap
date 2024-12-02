@@ -393,7 +393,7 @@
   font-weight: bold;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  background: linear-gradient(45deg, #646cff, #9089fc);
+  background: var(--color-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
