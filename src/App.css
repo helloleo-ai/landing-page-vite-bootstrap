@@ -25,13 +25,13 @@
 }
 
 .footer-link {
-  color: #666;
+  color: var(--color-text-secondary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #646cff;
+  color: var(--color-primary);
 }
 
 .footer-social {
@@ -78,7 +78,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, #646cff, #9089fc);
+  background: var(--color-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -101,7 +101,7 @@
   background: white;
   padding: 2.5rem 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-card);
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -154,7 +154,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: white;
-  background: #646cff;
+  background: var(--color-primary);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -162,7 +162,7 @@
 }
 
 .plan-cta:hover {
-  background: #7c82ff;
+  background: var(--color-primary-hover);
 }
 
 .plan-cta.highlighted {
