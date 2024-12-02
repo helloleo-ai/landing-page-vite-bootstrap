@@ -40,13 +40,13 @@
 }
 
 .footer-social-link {
-  color: #666;
+  color: var(--color-text-secondary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-social-link:hover {
-  color: #646cff;
+  color: var(--color-primary);
 }
 
 .footer-copyright {
@@ -85,7 +85,7 @@
 
 .pricing-subtitle {
   font-size: 1.2rem;
-  color: #666;
+  color: var(--color-text-secondary);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -129,7 +129,7 @@
 .plan-price .amount {
   font-size: 3rem;
   font-weight: bold;
-  color: #333;
+  color: var(--color-text-primary);
 }
 
 .plan-price .period {
@@ -145,7 +145,7 @@
 
 .plan-features li {
   padding: 0.5rem 0;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 .plan-cta {
@@ -166,7 +166,7 @@
 }
 
 .plan-cta.highlighted {
-  background: #7c82ff;
+  background: var(--color-primary-hover);
 }
 
 @media (max-width: 768px) {
