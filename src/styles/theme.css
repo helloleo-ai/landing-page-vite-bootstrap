@@ -1,0 +1,22 @@
+:root {
+  /* Primary colors */
+  --color-primary: #646cff;
+  --color-primary-hover: #7c82ff;
+  --color-gradient: linear-gradient(45deg, #646cff, #9089fc);
+  
+  /* Text colors */
+  --color-text-primary: #333;
+  --color-text-secondary: #666;
+  --color-text-light: #888;
+  
+  /* Background colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-dark: #333;
+  
+  /* Border colors */
+  --color-border: #ddd;
+  
+  /* Shadow */
+  --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
